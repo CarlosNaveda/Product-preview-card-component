@@ -1,0 +1,114 @@
+.body {
+	background-color: hsl(30, 38%, 92%);
+	width: 100%;
+	height: 100%;
+}
+
+.previewCard {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	height: 50%;
+}
+
+.Product-image {
+	margin: 0;
+	flex-basis: 50%;
+}
+.Product-image > img {
+	height: 100%;
+	width: 100%;
+}
+
+.DetailProduct {
+	margin: 0px;
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-basis: 50%;
+}
+
+.Product {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-weight: bolder;
+}
+
+.Product-Name {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 0;
+	font-size: 30px;
+	font-family: "Fraunces", serif;
+}
+
+.Product-Description > p {
+	margin-top: 0px;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+}
+
+.Prices {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 20%;
+}
+
+.New-Price {
+	flex-basis: 50%;
+	text-align: center;
+	color: hsl(158, 36%, 37%);
+	font-size: 30px;
+}
+
+.Old-Price {
+	flex-basis: 50%;
+	text-align: left;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+
+.button {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(158, 36%, 37%);
+	border-color: hsl(158, 36%, 37%);
+	border-style: solid;
+	border-radius: 5px;
+	height: 100%;
+}
+
+.button > img,
+.button > button {
+	height: 50%;
+}
+
+.button > img {
+	background-color: hsl(158, 36%, 37%);
+}
+
+.button > button {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	background-color: hsl(158, 36%, 37%);
+	border: none;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
