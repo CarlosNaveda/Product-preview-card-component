@@ -8,15 +8,22 @@
 	--font-Fraunces: "Fraunces", serif;
 }
 
-.body {
+html,
+body {
 	background-color: var(--color-cream);
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .previewCard {
 	display: flex;
 	flex-direction: row;
 	width: 720px;
-	height: 610px;
+	height: 550px;
 	place-items: center;
 }
 
@@ -43,11 +50,12 @@
 }
 
 .Product {
+	margin-top: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-bottom: 10px;
 	font-family: var(--font-Montserrat);
-	font-size: 25px;
+	font-size: 18px;
 	letter-spacing: 5px;
 	font-weight: bolder;
 }
@@ -56,6 +64,7 @@
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-top: 0;
+	margin-bottom: 5px;
 	font-size: 40px;
 	font-family: var(--font-Fraunces);
 }
@@ -64,8 +73,9 @@
 	margin-top: 0px;
 	margin-left: 25px;
 	margin-right: 25px;
+	margin-bottom: 5px;
 	font-family: var(--font-Montserrat);
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .Prices {
@@ -76,21 +86,28 @@
 }
 
 .New-Price {
+	margin: 0;
+	margin-left: 25px;
 	flex-basis: 50%;
 	text-align: center;
 	color: var(--color-Dark-cyan);
-	font-size: 30px;
+	font-size: 50px;
 }
 
 .Old-Price {
+	margin: 0;
+	margin-left: 25px;
 	flex-basis: 50%;
 	text-align: left;
 	text-decoration: line-through;
 	font-weight: normal;
+	font-size: 20px;
 }
 
 .button {
+	margin-top: 0;
 	margin-left: 30px;
+	margin-bottom: 25px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
