@@ -7,6 +7,7 @@ https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR
 **My Solution:**
 
 Code: https://github.com/CarlosNaveda/Product-preview-card-component.git
+
 Live: https://carlosnaveda.github.io/Product-preview-card-component/
 
 In this project i've learned:
