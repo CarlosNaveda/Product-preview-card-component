@@ -129,22 +129,20 @@ body {
 	width: 80%;
 }
 
-.button > img,
-.button > button {
+.button > img {
+	background-color: var(--color-Dark-cyan);
 	height: 50%;
 }
 
-.button > img {
-	background-color: var(--color-Dark-cyan);
-}
-
 .button > button {
+	padding: 0;
+	margin-left: 10px;
 	color: var(--color-white);
 	font-family: var(--font-Montserrat);
 	background-color: var(--color-Dark-cyan);
 	border: none;
 	font-weight: bolder;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .attribution {
