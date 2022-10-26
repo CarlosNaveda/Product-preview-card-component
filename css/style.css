@@ -84,7 +84,7 @@ body {
 	margin-bottom: 0px;
 }
 
-.Product-Description > p {
+.Product-Description {
 	margin-top: 0px;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -200,7 +200,7 @@ body {
 		margin-bottom: 0;
 	}
 
-	.Product-Description > p {
+	.Product-Description {
 		margin-left: 20px;
 		margin-right: 16px;
 		font-size: 17px;
