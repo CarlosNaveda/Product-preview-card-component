@@ -35,14 +35,9 @@ body {
 	height: 100%;
 }
 
-#image-web {
+#image {
 	height: 100%;
 	width: 100%;
-}
-
-#image-mobile {
-	height: 0%;
-	width: 0%;
 }
 
 .DetailProduct {
@@ -167,16 +162,6 @@ body {
 		width: 375px;
 		height: 750px;
 		place-items: center;
-	}
-
-	#image-web {
-		height: 0%;
-		width: 0%;
-	}
-
-	#image-mobile {
-		height: 100%;
-		width: 100%;
 	}
 
 	.Product {

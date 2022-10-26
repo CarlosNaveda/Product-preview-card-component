@@ -21,10 +21,11 @@
 
 <body class="body">
   <main class="previewCard">
-    <figure class="Product-image">
-      <img id="image-web" src="./images/image-product-desktop.jpg" alt="Perfume-image-Web">
-      <img id="image-mobile" src="./images/image-product-mobile.jpg" alt="Perfume-image-Mobile">
-    </figure>
+    <picture class="Product-image">
+      <source media="(max-width: 720px)" srcset="./images/image-product-mobile.jpg">
+      <img id="image" src="./images/image-product-desktop.jpg" alt="Perfume-images">
+    </picture>
+
     <div class="DetailProduct">
       <h1 class="Product">PERFUME</h1>
       <h2 class="Product-Name-Web">Gabrielle <br>Essence Eau <br>De Parfum</h2>
